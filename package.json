@@ -2,11 +2,13 @@
   "name": "speak-yodish",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://redvanisation.github.io/braille-generator/",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "express-rate-limit": "^3.3.2",
     "express-secure-only": "^0.2.1",
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
@@ -19,6 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
