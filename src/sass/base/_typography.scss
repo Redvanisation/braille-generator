@@ -1,0 +1,103 @@
+.heading-primary {
+    font-size: 7.5rem;
+    text-transform: uppercase;
+    letter-spacing: .6rem;
+    font-weight: 800;
+    color: $color-white;
+    display: inline-block;
+    padding: 1rem 2rem;
+
+    @include respond(tab-port) {
+        font-size: 6rem;
+        letter-spacing: 0;
+    }
+
+    @include respond(phone) {
+        font-size: 4rem;
+        padding: 1rem 0;
+    }
+    
+    @include respond(phone-sml) {
+        font-size: 3.2rem;
+        
+    }
+}
+
+// .heading-secondary {
+//     font-size: 5rem;
+//     text-transform: uppercase;
+//     letter-spacing: .4rem;
+//     font-weight: 200;
+//     color: $color-primary-light;
+// }
+
+.main {
+
+    &__text {
+        color: $color-white;
+        text-transform: capitalize;
+        font-size: 2rem;
+        margin: 0 auto 3rem auto;
+        font-weight: 300;
+        letter-spacing: .2rem;
+    }
+
+    &__btn {
+        font-size: $global-font-size;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    &__input-div,
+    &__output {
+        font-size: 2rem;
+        font-weight: 200;
+        text-transform: capitalize;
+        color: $color-white;
+        line-height: 1.3;
+        text-align: center;
+    }
+
+    &__output {
+        font-size: 3rem;
+    }
+}
+
+.footer {
+    position: relative;
+    font-size: $global-font-size;
+    color: $color-white;
+    letter-spacing: .1rem;
+    line-height: 1.5;
+    font-weight: 300;
+
+    &__link {
+        &,
+        &:link,
+        &:visited {
+            color: $color-secondary-dark;
+            font-weight: 500;
+            text-transform: uppercase;
+            text-decoration: none;
+            display: inline-block;
+            margin: 0 .5rem;
+            cursor: pointer;
+            transition: all .3s;
+
+            &:hover {
+                transform: scale(1.1) rotate(5deg);
+            }
+        }
+
+    }
+
+    &__help-text {
+
+        &--li {
+            text-transform: capitalize;
+            font-weight: 500;
+            line-height: 1.7;
+            letter-spacing: .1rem;
+        }
+    }
+}

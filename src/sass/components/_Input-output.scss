@@ -1,0 +1,104 @@
+.main {
+    text-align: center;
+
+    &__h2 {
+        display: inline-block;
+        margin: 2rem auto;
+    }
+
+    &__btn {
+        padding: 2rem 3rem;
+        margin: 3rem 2rem 2rem 2rem;
+        border-radius: 1rem;
+        color: $color-white;
+        background-color: transparent;
+        transition: all .3s;
+        cursor: pointer;
+        outline: none;
+
+        @include respond(phone) {
+            margin: 3rem auto 4rem auto;
+            padding: 2rem;
+            display: block;
+        }
+        
+        &:hover {
+            color: $color-white;
+            @include boxShadow;
+            transform: translateY(-.5rem);
+        }
+        
+        &:active {
+            transform: translateY(-.1rem);
+            box-shadow: 0 .2rem 1rem rgba($color-black, .5);
+        }
+        
+        &--record {
+            border: 3px solid $color-primary;
+            
+            &:hover {
+                color: $color-white;
+                background-color: $color-primary;
+                border: 3px solid $color-primary;
+
+            }
+        }
+        
+        &--stop {
+            border: 3px solid $color-secondary;
+
+            &:hover {
+                background-color: $color-secondary;
+                border: 3px solid $color-secondary;
+    
+            }
+            
+        }
+        
+        &--convert {
+            border: 3px solid $color-white;
+
+            &:hover {
+                background-color: $color-white;
+                color: $color-secondary-dark;
+            }
+
+        }
+        
+
+    }
+
+    &__input-div {
+        margin: 2rem auto;
+        width: 90%;
+        height: 30vh;
+        border-radius: 1rem;
+        padding: 2rem 1rem;
+        transition: all .5s;
+
+        &:hover {
+            border: 3px solid $color-primary;
+            // @include boxShadow;
+            box-shadow: 0 .3rem 3rem rgba($color-black, .3);
+        }
+        
+        
+    }
+    
+    &__output {
+        margin: 2rem auto;
+        // background-color: rgba($color-secondary, .8);
+        width: 90%;
+        height: 30vh;
+        border-radius: 1rem;
+        padding: 2rem 1rem;
+        transition: all .5s;
+        
+        &:hover {
+            border: 3px solid $color-white;
+            // @include boxShadow;
+            box-shadow: 0 .3rem 3rem rgba($color-black, .3);
+            
+        }
+    }
+}
