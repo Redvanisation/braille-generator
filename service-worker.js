@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/braille-generator/precache-manifest.97765b3f8c5402afdc86478a17451ce3.js"
+  "/braille-generator/precache-manifest.5e8f3dd98c8663743726d36ca1987276.js"
 );
 
 workbox.clientsClaim();
