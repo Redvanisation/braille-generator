@@ -1,13 +1,13 @@
 {
-  "main.css": "/braille-generator/static/css/main.05cfb9bd.chunk.css",
-  "main.js": "/braille-generator/static/js/main.cc381509.chunk.js",
-  "main.js.map": "/braille-generator/static/js/main.cc381509.chunk.js.map",
-  "static/js/1.3440b6f1.chunk.js": "/braille-generator/static/js/1.3440b6f1.chunk.js",
-  "static/js/1.3440b6f1.chunk.js.map": "/braille-generator/static/js/1.3440b6f1.chunk.js.map",
+  "main.css": "/braille-generator/static/css/main.29bb7a4d.chunk.css",
+  "main.js": "/braille-generator/static/js/main.3ebc0895.chunk.js",
+  "main.js.map": "/braille-generator/static/js/main.3ebc0895.chunk.js.map",
+  "static/js/1.2ed6d4bd.chunk.js": "/braille-generator/static/js/1.2ed6d4bd.chunk.js",
+  "static/js/1.2ed6d4bd.chunk.js.map": "/braille-generator/static/js/1.2ed6d4bd.chunk.js.map",
   "runtime~main.js": "/braille-generator/static/js/runtime~main.fe35ccf8.js",
   "runtime~main.js.map": "/braille-generator/static/js/runtime~main.fe35ccf8.js.map",
-  "static/css/main.05cfb9bd.chunk.css.map": "/braille-generator/static/css/main.05cfb9bd.chunk.css.map",
+  "static/css/main.29bb7a4d.chunk.css.map": "/braille-generator/static/css/main.29bb7a4d.chunk.css.map",
   "index.html": "/braille-generator/index.html",
-  "precache-manifest.97765b3f8c5402afdc86478a17451ce3.js": "/braille-generator/precache-manifest.97765b3f8c5402afdc86478a17451ce3.js",
+  "precache-manifest.fc3cf8b4fa0233c286a41c35b75c278a.js": "/braille-generator/precache-manifest.fc3cf8b4fa0233c286a41c35b75c278a.js",
   "service-worker.js": "/braille-generator/service-worker.js"
 }

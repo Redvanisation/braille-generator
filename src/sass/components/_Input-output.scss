@@ -64,6 +64,10 @@
             }
 
         }
+
+        &--fa-icon {
+            margin-right: .5rem;
+        }
         
 
     }
@@ -78,7 +82,6 @@
 
         &:hover {
             border: 3px solid $color-primary;
-            // @include boxShadow;
             box-shadow: 0 .3rem 3rem rgba($color-black, .3);
         }
         
